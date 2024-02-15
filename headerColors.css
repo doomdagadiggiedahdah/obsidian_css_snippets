@@ -1,0 +1,58 @@
+/* got .cm-header from here https://forum.obsidian.md/t/how-to-change-header-color-in-editor-mode/32706 */
+
+.cm-header-1 {
+  color: #FF00FF; /* Magenta */
+}
+
+.cm-header-2 {
+  color: #00FFFF; /* Cyan */
+}
+
+.cm-header-3 {
+  color: #FF9900; /* Orange */
+}
+
+.cm-header-4 {
+  color: #FF66CC; /* Pink */
+}
+
+.cm-header-5 {
+  color: #00FF00; /* Lime Green */
+}
+
+.cm-header-6 {
+  color: #CC00FF; /* Purple */
+}
+
+.markdown-preview-view h1, 
+.markdown-preview-view h2, 
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6
+{
+    
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+    display: inline-block;
+    padding-top: 10px;
+
+    /* Pill deets */
+    background-color: #0f2073 ; /* Background color of the pill */
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 10px 0;
+    box-shadow: 5px 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Adjust the size and spacing of your headers */
+.markdown-preview-view h1 { font-size: 1.5em; }
+.markdown-preview-view h2 { font-size: 1.3em; }
+.markdown-preview-view h3 { font-size: 1.1em; }
