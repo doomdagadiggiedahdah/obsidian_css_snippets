@@ -1,0 +1,6 @@
+.app-container * { 
+  color: rgba(255, 100, 0, 0.8) !important; /* Semi-transparent text */
+  text-shadow: 39px 15px rgba(255, 255, 255, 0.5) !important; 
+}
+/* this gives me the idea to get a sin function that controls the shadow and 
+ * just ruins the user's experience */

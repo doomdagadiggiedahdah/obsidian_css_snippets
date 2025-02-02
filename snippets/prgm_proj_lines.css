@@ -1,0 +1,22 @@
+/* 
+
+would like to fix this at some point. Here's a good link
+https://www.perplexity.ai/search/can-I-set-M74w3kFjQPKYYSdgm5626w
+
+Optional css that can be added to make dashboards use wide margin 
+if "Readable line length" is enabled in Editor
+Updated 2023-11-02
+*/
+
+
+.prgm_proj body {
+   width: 100% !important;
+   max-width: 100% !important;
+ }
+
+/*.prgm_proj.markdown-preview-view.body .markdown-preview-section,
+.prgm_proj.markdown-preview-view.body .markdown-preview-section > div {   
+   width: 100% !important;
+   max-width: 100% !important;
+ }
+*/
