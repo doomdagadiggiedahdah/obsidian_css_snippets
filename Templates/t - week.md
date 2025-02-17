@@ -1,14 +1,30 @@
 ---
 date_creation: <% tp.file.creation_date("YYYY-MM-DD") %>
 time_creation: <% tp.file.creation_date("HH:mm:SS") %>
-last-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags:
   - weeklynotes
 ---
 - prev wr:: <% `[[w-${moment().format("YYYY")}-W${moment().subtract(1, 'weeks').format("ww")}]]` %>
-- [[gtd - projects]] look here for some things to do for the week
-	- take those things and put them here, for you to see.
-- each day, look at stuff from this file to find what to work on.
+- make a new week note: [[week review checklist]]
+- projects:: [[gtd - projects]]
+	- take things from projects and put them here. execute
+	- each day, look at stuff from this file to find what to work on.
 
-- what am I doing this week?
-	- [ ] <% tp.file.cursor() %>
+## - what is the project for this week?
+- What's the single focus?
+
+## - who do I want to hang out with?
+- [ ] call Grandma
+
+## - slowdrip
+- [[slow_drip - how to]] (delete me after four are picked)
+1. 
+2. 
+3. 
+4. 
+
+##  - what am I doing this week?
+- [ ] <% tp.file.cursor() %>
+
+## - reflection
+- 

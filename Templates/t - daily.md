@@ -1,7 +1,6 @@
 ---
 date_creation: <% tp.file.creation_date("YYYY-MM-DD") %>
 time_creation: <% tp.file.creation_date("HH:mm:SS") %>
-last-modified: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %>
 tags:
   - "#dailynotes"
 ---
@@ -25,6 +24,7 @@ tags:
 - [ ] ✨Daily stuff✨
 	- [ ] morning routine
 	- [ ] look at weekly notes
+	- [ ] slow_drip
 	- [ ] anki
-	- [ ] do basic KnowFlow
+	- [ ] do basic KnowFlow 
 	- [ ] reflect on daily winnings (even just the start of the day). 
